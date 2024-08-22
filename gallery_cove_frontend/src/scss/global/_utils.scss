@@ -1,0 +1,15 @@
+.separator {
+    width: 50px;
+    height: 10px;
+    margin: 0 auto 70px;
+    background: #e0307d;
+}
+
+.sort-artworks-select {
+    backdrop-filter: blur(16px);
+
+    option {
+        background-color: #f14a8d;
+        color: black;
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 32px auto 42px;
+}
+
+.profile-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .button {
+        width: auto;
+    }
+}

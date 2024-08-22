@@ -1,0 +1,47 @@
+h1 {
+    font-size: 38px;
+    margin-bottom: 14px;
+    color: white;
+
+    &.large {
+        font-size: 98px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+}
+
+h2 {
+    &.text-center {
+        font-size: 32px;
+        margin-top: 70px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.headline {
+    font-size: 68px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+small {
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.status-message {
+    margin: 0;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.category {
+    color: white;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+div {
+    font-size: 18px;
+}

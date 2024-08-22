@@ -1,0 +1,67 @@
+button,
+.button {
+    width: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    &.auto {
+        width: auto;
+    }
+
+    &.danger {
+        color: #ec0101;
+    }
+
+    &.dark {
+        background: rgb(43, 43, 43);
+        color: white;
+    }
+
+    &.active2 {
+        color: #e0307d;
+    }
+
+    &.active {
+        background: #e0307d;
+        color: white;
+    }
+
+    .dot-spinner {
+        --uib-size: 19px;
+    }
+}
+
+a {
+    color: var(--nav-link-color);
+    font-size: 18px;
+
+    &:hover{
+        color: var(--nav-link-color-hover);
+        text-decoration: underline;
+    }
+}
+
+.link {
+    color: #e0307d;
+
+    &:hover {
+        color: #e0307d;
+        text-decoration: underline;
+    }
+}   

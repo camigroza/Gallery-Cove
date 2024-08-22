@@ -1,0 +1,1 @@
+export type Sort = 'ascendingDate' | 'descendingDate' | 'ascendingPrice' | 'descendingPrice' | 'random';

@@ -1,0 +1,41 @@
+.popup-component {
+    position: relative;
+
+    .popup-container {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: white;
+        padding: 16px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+        gap: 14px;
+        min-width: 360px;
+    }
+
+    .button-list {
+        display: flex;
+        flex-grow: 1;
+        gap: 10px;
+   
+        .button {
+            flex-grow: 1;
+            width: auto;
+            height: auto;
+            padding: 16px 6px;
+            border-radius: 8px;
+            box-shadow: none;
+            border: 1px solid rgb(201, 201, 201);
+            min-width: 0;
+        }
+    }
+
+    p {
+        color: black;
+        font-size: 16px;
+        margin: 0;
+    }
+}

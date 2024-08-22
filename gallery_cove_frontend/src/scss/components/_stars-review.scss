@@ -1,0 +1,24 @@
+.stars-review-component {
+    display: flex;
+    
+    button {
+        background: transparent;
+        border-radius: 0;
+        padding: 4px;
+        margin-top: 0;
+        min-width: 0 !important;
+        box-shadow: none;
+
+        &.active {
+            i {
+                color: #e0307d;
+            }
+        }
+
+        i {
+            transform: none;
+            position: static;
+            font-size: 42px;
+        }
+    }
+}

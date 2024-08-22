@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: var(--body-bg);
+}
+
+main {
+    flex-grow: 1;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    border-color: var(--border-color);
+    width: 50%;
+}
+
+[role="button"] {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.leaflet-control-attribution {
+    display: none !important;
+}
+
+textarea:focus, select:focus {
+    outline: none; 
+  }

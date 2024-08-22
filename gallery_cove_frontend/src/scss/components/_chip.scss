@@ -1,0 +1,15 @@
+.chip-component {
+    background: lightblue;
+    border-radius: 8px;
+    font-size: 18px;
+    width: auto;
+    padding: 2px 6px;
+    border: 2px solid transparent;
+    transition: .2s;
+
+    &[role="button"] {
+        &:hover {
+            filter: saturate(3); 
+        }
+    }
+}

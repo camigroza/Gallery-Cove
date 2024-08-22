@@ -1,0 +1,15 @@
+.card-list-component {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 50px;
+
+    &.full-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & > a {
+        color: unset;
+        text-decoration: none
+    }
+}
