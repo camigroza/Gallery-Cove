@@ -1,5 +1,5 @@
 # Gallery Cove
-Gallery Cove is a web application dedicated to supporting local artists in Aiud by providing a virtual space for them to showcase and sell their creations. The platform encourages community engagement by promoting small local businesses and facilitating direct interaction between artists and customers.
+Gallery Cove is a web application dedicated to supporting local artists by providing a virtual space for them to showcase and sell their creations. The platform encourages community engagement by promoting small local businesses and facilitating direct interaction between artists and customers. <br>
 The backend of the application was developed using Java, Spring Boot, and MySQL Workbench, while the frontend was built using HTML, SCSS, TypeScript, and React.
 
 ## Features:
